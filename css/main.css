@@ -20,13 +20,13 @@ html {
 .left-eyebrow {
   transform: rotate(80deg);
   transform-origin: 100px 82px;
-  transition: all 0.5s linear;
+  transition: all .5s linear;
 }
 
-.right-eyebrow{
+.right-eyebrow {
   transform: rotate(100deg);
   transform-origin: 156px 82px;
-  transition: all 0.5s linear;
+  transition: all .5s linear;
 }
 
 .smiley:hover .left-eyebrow {
@@ -34,5 +34,5 @@ html {
 }
 
 .smiley:hover .right-eyebrow {
-transform: rotate(80deg);
+  transform: rotate(80deg);
 }
